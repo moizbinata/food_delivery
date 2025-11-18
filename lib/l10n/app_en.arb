@@ -1,0 +1,24 @@
+{
+  "appTitle": "Delivery Food",
+  "loginTitle": "Login",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "signIn": "Sign in",
+  "signingIn": "Signing in...",
+  "catalogLabel": "Catalog",
+  "cartLabel": "Cart",
+  "profileLabel": "Profile",
+  "welcome": "Welcome!",
+  "homeReady": "Your delivery app scaffold is ready.",
+  "routeError": "Route error: {error}",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "@routeError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}

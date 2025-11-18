@@ -1,0 +1,24 @@
+{
+  "appTitle": "توصيل الطعام",
+  "loginTitle": "تسجيل الدخول",
+  "emailLabel": "البريد الإلكتروني",
+  "passwordLabel": "كلمة المرور",
+  "signIn": "تسجيل الدخول",
+  "signingIn": "جارٍ تسجيل الدخول...",
+  "catalogLabel": "الكتالوج",
+  "cartLabel": "السلة",
+  "profileLabel": "الملف الشخصي",
+  "welcome": "مرحبًا!",
+  "homeReady": "هيكل تطبيق التوصيل جاهز.",
+  "routeError": "خطأ في المسار: {error}",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "themeSystem": "النظام",
+  "@routeError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}

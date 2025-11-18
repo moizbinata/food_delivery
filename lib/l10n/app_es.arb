@@ -1,0 +1,24 @@
+{
+  "appTitle": "Comida a Domicilio",
+  "loginTitle": "Iniciar sesión",
+  "emailLabel": "Correo electrónico",
+  "passwordLabel": "Contraseña",
+  "signIn": "Entrar",
+  "signingIn": "Iniciando...",
+  "catalogLabel": "Catálogo",
+  "cartLabel": "Carrito",
+  "profileLabel": "Perfil",
+  "welcome": "¡Bienvenido!",
+  "homeReady": "Tu aplicación de entrega está lista.",
+  "routeError": "Error de ruta: {error}",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro",
+  "themeSystem": "Sistema",
+  "@routeError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}
