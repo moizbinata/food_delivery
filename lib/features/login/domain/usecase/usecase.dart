@@ -1,16 +1,33 @@
+import '../entities/user.dart';
 import 'dart:convert';
 import 'package:dio/dio.dart';
-import '../../domain/entities/user.dart';
-import '../../domain/repositories/auth_repository.dart';
-import '../models/auth_response_dto.dart';
-import '../models/user_dto.dart';
+import '../../data/models/auth_response_dto.dart';
+import '../../data/models/user_dto.dart';
 import '../../../../core/storage/secure_storage_service.dart';
+abstract class ILoginUsecase {
+  Future<User> login({
+    required String email,
+    required String password,
+  });
 
-class AuthRepositoryImpl implements AuthRepository {
+  Future<void> logout();
+
+  Future<bool> isAuthenticated();
+
+  Future<User?> getCurrentUser();
+
+  Future<void> saveUser(User user);
+
+  Future<User?> getSavedUser();
+}
+
+
+
+class LoginUsecaseImpl implements ILoginUsecase {
   final Dio _dio;
   final SecureStorageService _storage;
 
-  AuthRepositoryImpl(this._dio, this._storage);
+  LoginUsecaseImpl(this._dio, this._storage);
 
   @override
   Future<User> login({required String email, required String password}) async {

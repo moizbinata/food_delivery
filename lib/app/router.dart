@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:delivery_food/l10n/app_localizations.dart';
 
 // Navigation shell removed to show only Splash as first screen
-import '../features/login/view/login_view.dart';
+import '../features/login/presentation/screen/login_view.dart';
 
 GoRouter? appRouter;
 
